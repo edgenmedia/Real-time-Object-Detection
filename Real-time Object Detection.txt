@@ -1,0 +1,202 @@
+Real-time Object Detection using YOLOv8
+
+An AI-powered Computer Vision system for detecting and classifying objects in real time using YOLOv8, optimized for speed, accuracy, and real-world deployment.
+
+📌 Project Overview
+
+Real-time Object Detection using YOLOv8 is a deep learning–based Computer Vision application that identifies and localizes multiple objects in images and live video streams.
+
+Built on YOLOv8 (You Only Look Once), the system performs single-stage detection, making it fast enough for real-time use cases such as surveillance, autonomous systems, and smart analytics.
+
+This project demonstrates production-ready ML engineering and practical Computer Vision expertise.
+
+🎯 Project Objectives
+
+To implement real-time object detection using YOLOv8
+
+To detect and classify multiple objects simultaneously
+
+To achieve high inference speed with strong accuracy
+
+To demonstrate industry-grade ML model deployment
+
+To apply Computer Vision in real-world scenarios
+
+🚀 Features
+
+🎥 Real-time detection from webcam or video
+
+🖼️ Image and video file inference
+
+📦 Bounding box visualization with class labels
+
+⚡ High-speed inference using YOLOv8
+
+🧠 Pre-trained & custom-trained model support
+
+🔧 Easy deployment & scalability
+
+🛠️ Technologies Used
+Programming Language
+
+Python
+
+Computer Vision & ML Tools
+
+YOLOv8 (Ultralytics)
+
+PyTorch
+
+OpenCV
+
+NumPy
+
+Hardware (Optional)
+
+GPU (CUDA-enabled) for faster inference
+
+🧠 What is YOLOv8?
+
+YOLOv8 (You Only Look Once) is a state-of-the-art real-time object detection model that performs detection in a single pass through the neural network.
+
+Key benefits:
+
+Single-stage detection
+
+High FPS (Frames Per Second)
+
+Excellent accuracy–speed tradeoff
+
+Production-ready architecture
+
+🏗️ System Architecture
+Input (Image / Video / Webcam)
+        ↓
+Frame Preprocessing
+        ↓
+YOLOv8 Model
+        ↓
+Object Detection & Classification
+        ↓
+Bounding Box Rendering
+        ↓
+Real-time Output Display
+
+📂 Project Structure
+Real-Time-Object-Detection-YOLOv8/
+│
+├── main.py                 # Main inference script
+├── detector.py             # YOLOv8 detection logic
+├── utils.py                # Helper functions
+├── config.py               # Model & settings
+├── weights/                # YOLOv8 model weights
+├── data/                   # Test images/videos
+├── requirements.txt        # Dependencies
+└── README.md               # Project documentation
+
+📋 Requirements
+
+Python 3.8+
+
+Webcam or video input
+
+YOLOv8 model weights
+
+GPU (optional but recommended)
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+▶️ How to Run
+Webcam Detection
+python main.py --source webcam
+
+Image Detection
+python main.py --source image --path data/image.jpg
+
+Video Detection
+python main.py --source video --path data/video.mp4
+
+🧪 Example Use Cases
+
+Real-time person detection
+
+Vehicle detection and counting
+
+Traffic monitoring systems
+
+Security and surveillance
+
+Smart retail analytics
+
+📊 Functional Requirements
+
+Detect objects in real time
+
+Draw bounding boxes with labels
+
+Support image, video, and live feed
+
+Handle multiple object classes
+
+Provide fast and accurate predictions
+
+⚙️ Non-Functional Requirements
+
+Low inference latency
+
+High detection accuracy
+
+Scalable model deployment
+
+Robust performance in real-time
+
+✅ Advantages
+
+Industry-proven object detection model
+
+Real-time performance
+
+Easy to customize and retrain
+
+Works on edge and cloud environments
+
+Strong resume and portfolio value
+
+⚠️ Limitations
+
+Performance depends on hardware
+
+Accuracy affected by lighting and occlusion
+
+Requires GPU for high FPS in complex scenes
+
+🔮 Future Enhancements
+
+Custom dataset training
+
+Object tracking (DeepSORT)
+
+Edge deployment (Jetson / Raspberry Pi)
+
+Model optimization (TensorRT / ONNX)
+
+Web or mobile deployment
+
+📌 Applications
+
+Autonomous vehicles
+
+Smart surveillance systems
+
+Industrial automation
+
+Retail analytics
+
+Robotics & drones
+
+🏁 Conclusion
+
+The Real-time Object Detection using YOLOv8 project showcases industry-grade Computer Vision and ML engineering.
+It reflects real-world deployment standards where speed, accuracy, and scalability are critical.
