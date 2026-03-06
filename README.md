@@ -98,9 +98,8 @@ Enter image path: image.jpg
 The system will display:
 
 * Detected objects
-* Bounding boxes
-* Object counts
-* Confidence score
+* Object counting for each detected class
+* Bounding boxes, confidence score and class labels displayed on detected objects
 
 ---
 
@@ -122,9 +121,9 @@ Features in video mode:
 * Progress bar
 * Mouse-click video seeking
 * Pause and resume video playback (Using spacebar keyboard button)
-* f button forward 5 seconds video
-* b button backward 5 seconds video
-* q Quit video
+* Press **f** button forward 5 seconds video
+* Press **b** button backward 5 seconds video
+* Press **q** Quit video
 
 ---
 
@@ -134,7 +133,9 @@ Choose option **3**.
 
 The webcam will start and perform **real-time object detection**.
 
-Press **Q** to exit.
+* Object counting for each detected class
+* Bounding boxes, confidence score and class labels displayed on detected objects
+* Press **q** to exit.
 
 ---
 
