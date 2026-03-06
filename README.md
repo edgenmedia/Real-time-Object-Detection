@@ -19,10 +19,6 @@ It provides bounding boxes, object labels, and counts of detected objects.
   * Video detection
   * Webcam detection
 * **Object counting** for each detected class
-* **Video progress bar**
-* **Mouse-click video seeking**
-* Pause and resume video playback
-* Bounding boxes and class labels displayed on detected objects
 
 ---
 
@@ -58,20 +54,13 @@ Object-Detection/
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/object-detection-yolov8.git
-cd object-detection-yolov8
-```
-
-### 2️⃣ Install Dependencies
+### 1️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Download YOLOv8 Model (if not included)
+### 2️⃣ Download YOLOv8 Model (if not included)
 
 ```bash
 pip install ultralytics
@@ -111,6 +100,7 @@ The system will display:
 * Detected objects
 * Bounding boxes
 * Object counts
+* Confidence score
 
 ---
 
@@ -127,9 +117,14 @@ Enter video path: video.mp4
 Features in video mode:
 
 * Object detection in each frame
-* Object counter
+* Object counting for each detected class
+* Bounding boxes, confidence score and class labels displayed on detected objects
 * Progress bar
-* Clickable video seeking
+* Mouse-click video seeking
+* Pause and resume video playback (Using spacebar keyboard button)
+* f button forward 5 seconds video
+* b button backward 5 seconds video
+* q Quit video
 
 ---
 
@@ -143,57 +138,3 @@ Press **Q** to exit.
 
 ---
 
-## 📊 Object Counting
-
-The system automatically counts the number of objects detected in each frame.
-
-Example display:
-
-```
-person : 3
-car : 1
-dog : 2
-```
-
----
-
-## 📌 Requirements
-
-The required Python libraries are listed in **requirements.txt**
-
-```
-ultralytics
-opencv-python
-numpy
-```
-
-Install them using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🔮 Future Improvements
-
-* Add **GUI interface**
-* Add **object tracking**
-* Export detection results to **CSV**
-* Support **custom trained YOLO models**
-* Improve **video playback controls**
-
----
-
-## 👨‍💻 Author
-
-**Pranay Katekhaye**
-
-B.Tech IT Student
-Machine Learning & Computer Vision Enthusiast
-
----
-
-## 📜 License
-
-This project is developed for **educational and research purposes**.
