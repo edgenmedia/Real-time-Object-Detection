@@ -15,9 +15,9 @@ It provides bounding boxes, object labels, and counts of detected objects.
 * Object detection using **YOLOv8 (Ultralytics)**
 * Supports **three input types**
 
-  * Image detection
-  * Video detection
-  * Webcam detection
+  * Image 
+  * Video 
+  * Webcam 
 * **Object counting** for each detected class
 
 ---
